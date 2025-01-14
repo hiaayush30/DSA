@@ -4,6 +4,8 @@
 //ie if you try to run the classs file from within the Packages file it will
 //not run as it will try to find Packages/Main.class 
 //so run the file from outside folder where Packages folder is present
+
+// Classpath => The place where jvm looks for the package
 package Packages;
 public class Main {
  public static void main(String[] args) {
