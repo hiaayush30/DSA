@@ -19,17 +19,16 @@ public class Enums {
         try {
             Day day = Day.valueOf(response);
             // enhanced switch
-            switch (day) {
+           String result= switch (day) {
                 case MONDAY,
                         TUESDAY,
                         WEDNESDAY,
                         THURSDAY,
-                        FRIDAY ->
-                    System.out.println("It's a weekday!");
+                        FRIDAY -> "It's a weekday!";
                 case SATURDAY,
-                        SUNDAY ->
-                    System.out.println("it's the weekend!");
-            }
+                        SUNDAY -> "it's the weekend!";
+            };
+            System.out.println(result);
         } catch (IllegalArgumentException e) {
             System.out.println("Enter a valid day!");
         }
