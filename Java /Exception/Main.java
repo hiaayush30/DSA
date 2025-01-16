@@ -52,4 +52,12 @@ public class Main {
         }
 
     }
+
+    // handling multiple exceptions
+    // try {
+    // Code that might throw exceptions
+    // } catch (ExceptionType1 | ExceptionType2 | ExceptionType3 e) {
+    // Handle the exceptions
+    // }
+
 }
