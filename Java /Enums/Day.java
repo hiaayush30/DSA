@@ -1,4 +1,5 @@
-public enum Day {
+// enum class extends the java.lang.enum class
+public enum Day{
     // each of them is a final instance of final class Day
     // SUNDAY,MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY;
     // or

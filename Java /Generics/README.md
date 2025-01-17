@@ -1,3 +1,5 @@
+ https://engineeringdigest.medium.com/generics-b158a743d18f
+ ---
  Generics were introduced in the later versions of Java (~1.5 onwards)
 ### The Object class
 - the class Object is a built in class in Java which is the parent class of all classes in Java
