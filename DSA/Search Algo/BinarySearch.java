@@ -8,9 +8,9 @@ public class BinarySearch {
             if (arr[middle] == target) {
                 return middle;
             } else if (arr[middle] < target) {
-                start = middle + 1;
+                start = middle + 1; //doing +1 as we already checked middle
             } else {
-                end = middle - 1;
+                end = middle - 1;  
             }
         }
         return -1;
