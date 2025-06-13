@@ -1,6 +1,0 @@
-- array objects are created in heap
-- objects in heap are not continous
-- dynamic memory allocation (ie at runtime) takes place 
-- array internally may/may not be continous in Java bcz of point 2
-- new is a keyword to create a new object
-- null is a special value which is the default value of reference variables which have not been initialized 
