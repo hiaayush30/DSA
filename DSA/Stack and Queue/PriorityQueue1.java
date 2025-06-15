@@ -11,7 +11,7 @@ public class PriorityQueue1{
     	//Strings in default order
     	Queue<String> queue = new PriorityQueue<>();
     	
-    	//Strings in reverse order
+    	//arrange in reverse order
     	//Queue<String> queue = new PriorityQueue<>(Collections.reverseOrder());
     	
     	queue.offer("B");
